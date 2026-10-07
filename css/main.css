@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html, body {
+html,
+body {
   margin: 0px;
 }
 
@@ -63,6 +64,10 @@ footer {
     background-color: Aquamarine;
   }
 
+  .col-3 {
+    width: 50%;
+  }
+
   #column-1 {
     background-color: Bisque;
   }
@@ -73,12 +78,14 @@ footer {
 
   #column-3 {
     background-color: Cornsilk;
+    width: 100%;
   }
 
   footer {
     background-color: CornflowerBlue;
   }
-  
+
+
 }
 
 
@@ -86,6 +93,10 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: BurlyWood;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
 
   #column-1 {
@@ -98,10 +109,13 @@ footer {
 
   #column-3 {
     background-color: Cyan;
+    width: 33.3%;
   }
 
   footer {
     background-color: CornflowerBlue;
   }
-   
+
+
+
 }
